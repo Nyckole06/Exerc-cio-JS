@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/global.css">
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <div class="campo">
+                <h2>Calcule o seu IMC!</h2>
+
+                <input type="text" id="altura" name="altura_usuario" placeholder="Insira a sua altura">
+            </div>
+
+            <div class="campo">
+                <input type="text" id="peso" name="peso_altura" placeholder="Insira o seu peso">
+            </div>
+            
+            <div class="botao">
+                <button onclick="CalcularImc()">Calcular</button>
+                <div id="mensagem" class="mensagem"></div>
+            </div>
+
+            <div class="botao">
+                <button onclick="window.location.href='select.html'">Voltar</button>
+                <div id="mensagem" class="mensagem"></div>
+            </div>
+
+            </div>
+        </div>
+
+        <script src="/js/imc.js"></script>
+    </body>
+</html>

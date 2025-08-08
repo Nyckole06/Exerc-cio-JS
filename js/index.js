@@ -3,8 +3,6 @@ function Entrar()
     const usuario = document.getElementById("usuario").value;
 
     const senha = document.getElementById("senha").value;
-
-    const mensagem = document.getElementById("mensagem");
     
     const emailSalvo = localStorage.getItem("emailCadastrado");
 

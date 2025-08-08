@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/global.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="campo">
+                <h2>DADOS VIA CEP</h2>
+                <input type="text" id="cep" name="cep_usuario" placeholder="CEP">                 
+            </div>
+
+            <div class="botao">
+                <button onclick="getEndereco()">Obter dados</button>
+                <p id="logradouro"></p>
+                <p id="bairro"></p>
+                <p id="cidade"></p>
+                <p id="estado"></p>
+                <p id="regiao"></p>
+            </div>
+
+            <div class="botao">
+                <button onclick="window.location.href='select.html'">Voltar</button>
+                <div id="mensagem" class="mensagem"></div>
+            </div>
+
+        </div>
+
+        <script src="/js/cep.js"></script>
+
+    </body>
+</html>

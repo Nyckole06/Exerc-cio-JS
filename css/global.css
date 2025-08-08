@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(193, 192, 190, 0.53);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 40px 40px;
+    margin: 30px;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+h2
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo, .botao, .links
+{
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input
+{
+    width: 200px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(168, 168, 167);
+}
+
+button
+{
+    color: white;
+    background-color: rgb(69, 69, 252);
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12;
+    font-family: arial;
+    cursor: pointer;
+}
+
+button:hover
+{
+    color: white;
+    background-color: rgba(69, 69, 252, 0.892);
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12;
+    font-family: arial;
+}
+
+.erro
+{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+.sucesso
+{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.resultado
+{
+    text-align: center;
+}
